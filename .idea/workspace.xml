@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2af29212-a7f9-41c2-ba59-7d5b90e9c14b" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1Prk3wG4egC0HocuaYCHPekUywj" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/cytoscape.js-tutorial-demo-gh-pages/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2af29212-a7f9-41c2-ba59-7d5b90e9c14b" name="Default Changelist" comment="" />
+      <created>1566639407066</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566639407066</updated>
+      <workItem from="1566639410009" duration="7298000" />
+      <workItem from="1566892128808" duration="6058000" />
+      <workItem from="1566986754953" duration="5275000" />
+      <workItem from="1567177595751" duration="7147000" />
+      <workItem from="1567244740950" duration="2487000" />
+      <workItem from="1567247667548" duration="5721000" />
+      <workItem from="1567423672794" duration="2235000" />
+      <workItem from="1567426643670" duration="971000" />
+      <workItem from="1567516952087" duration="2067000" />
+      <workItem from="1567671114053" duration="1401000" />
+      <workItem from="1567859782068" duration="4559000" />
+      <workItem from="1567938294161" duration="4320000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

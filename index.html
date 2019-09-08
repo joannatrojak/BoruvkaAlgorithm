@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/skeleton.css" />
+  <link rel="stylesheet" href="css/font-awesome.css" />
+  <link rel="stylesheet" href="css/open-sans.css" />
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="css/tooltipster.bundle.min.css" />
+
+
+  <script src="js/cytoscape.min.js"></script>
+  <script src="js/cola.js"></script>
+  <script src="js/cytoscape-cola.js"></script>
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/tooltipster.bundle.min.js"></script>
+  <script src="js/index.js"></script>
+
+    <meta charset="UTF-8">
+
+  <title>Cytoscape.js tutorial demo</title>
+</head>
+
+<body>
+  <h1>Boruvka algorithm</h1>
+
+  <div id="cy" class="main">
+  </div>
+
+  <div class="tools">
+    <h2>Data</h2>
+
+    <p>The <a target="_blank" href="http://js.cytoscape.org/#notation/elements-json">data</a> specifies what should be put in
+      the graph. Select between one of the example data sets or specify your own custom data in the code.</p>
+
+    <label for="data" class="tooltip u-pull-left" title="Switch to a new dataset">Active dataset</label>
+    <div class="u-cf"></div>
+    <select class id="data">
+        <option value="custom.json">Custom</option>
+      </select>
+
+    <h2>Style</h2>
+
+    <p>The <a target="_blank" href="http://js.cytoscape.org/#style">stylesheet</a> is used to specify rules that affect how
+      the elements in the graph look. Select between one of the example stylesheets or specify your own custom stylesheet
+      in the code.</p>
+
+    <label for="style" class="tooltip u-pull-left" title="Switch to a new graph stylesheet">Active stylesheet</label>
+    <div class="u-cf"></div>
+    <select id="style">
+        <option value="custom.cycss">Custom</option>
+      </select>
+
+    <h2>Layout</h2>
+
+    <p>The <a target="_blank" href="http://js.cytoscape.org/#layouts">layout</a> is used to specify how the nodes are positioned
+      in the viewport. Select between one of the example layouts or specify your own in the code.</p>
+
+    <label for="layout" class="tooltip u-pull-left" title="Change layout">Active layout</label>
+    <div class="u-cf"></div>
+    <select id="layout">
+        <option value="cola" selected>Force-directed</option>
+        <option value="concentricCentrality">Concentric by centrality</option>
+        <option value="concentricHierarchyCentrality">Hierarchy by centrality</option>
+        <option value="custom">Custom</option>
+      </select>
+    <i id="redo-layout" class="fa fa-refresh action-icon tooltip" title="Redo layout"></i>
+      <h2>Add nodes to the graph:</h2>
+      <form id="addToGraph">
+          <div class="form-group">
+              <label for="node">Node:</label>
+              <input type="text" class="form-control" id="node" placeholder="Name node">
+          </div>
+          <div class="form-group">
+              <label for="edge1">Edge 1:</label>
+              <input type="text" class="form-control" id="edge1" placeholder="edge1">
+          </div>
+          <div class="form-group">
+              <label for="edge2">Edge2 2:</label>
+              <input type="text" class="form-control" id="edge2" placeholder="edge2">
+          </div>
+          <div class="form-group">
+              <label for="weight1">Weight: </label>
+              <input type="number" class="form-control" id="weight1" placeholder="weight">
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      <h2>Find Minimum Spanning Tree: </h2>
+      <button id="kruskal">Boruvka algorithm</button>
+    <h2>Using custom data</h2>
+
+    <p>To use custom data, styles, or layouts, <a target="_blank" href="https://github.com/cytoscape/cytoscape.js-tutorial-demo">clone the repo</a>      and modify <code>datasets/custom.json</code>, <code>js/index.js</code>, or <code>stylesheets/custom.cycss</code>.</p>
+  </div>
+  <div class="footer-link">
+    <a target="_blank" href="http://js.cytoscape.org">js.cytoscape.org</a>
+    <a target="_blank" href="https://vimeo.com/218307423">Introduction video</a>
+  </div>
+</body>
+
+</html>
