@@ -206,9 +206,9 @@
 
     $('#redo-layout').addEventListener('click', applyLayoutFromSelect);
 
-    $algorithm.addEventListener('change', applyAlgorithmFromSelect);
+    //$algorithm.addEventListener('change', applyAlgorithmFromSelect);
 
-    $('#redo-algorithm').addEventListener('click', applyAlgorithmFromSelect);
+    //$('#redo-algorithm').addEventListener('click', applyAlgorithmFromSelect);
 
     $('#addToGraph').addEventListener('submit', function (e) {
       e.preventDefault();
